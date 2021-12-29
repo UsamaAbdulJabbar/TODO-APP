@@ -1,0 +1,52 @@
+* {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+.toDoList {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border: 3px solid green;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+li {
+  background-color: rgba(30, 240, 75, 0.342);
+  display: flex;
+  justify-content: space-between;
+  border: black 2px inset;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+}
+button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(104, 217, 252);
+}
+
+.del {
+  background-color: rgb(252, 62, 62);
+}
+
+.EditBtn {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.del1 {
+  background-color: rgb(236, 24, 60);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
